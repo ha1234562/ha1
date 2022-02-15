@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+p {
+  font-style: 14px;
+  color: rgb(59, 59, 59);
+}
+
+.navigationBar form button {
+  margin: 0 8px;
+  font-size: 14px;
+}
+.navigationBar form i {
+  margin-right: 7px;
+}
+.login {
+  border: none;
+  color: black;
+}
+.login:hover {
+  background-color: #fff;
+  color: green;
+}
+.articles {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.articles h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.articles .headLine {
+  width: 100px;
+  border-top: 2px solid gray;
+}
+.articles ul li a {
+  color: gray;
+  font-weight: 500;
+}
+.articles ul li .active {
+  color: rgb(43, 43, 43);
+}
+.articles ul li a:hover {
+  color: green;
+}
+
+.row .card {
+  margin: 30px auto;
+}
+.row .card .card-body h6 {
+  font-weight: 600;
+}
+.circle {
+  padding: 5px 11px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.innerRow h6 {
+  color: rgb(82, 82, 82);
+}

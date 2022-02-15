@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Using HTML Forms</h1>
+    <form action="save.php">
+        <label for="name">Name</label><input placeholder="Please enter ypur name...." type="text" name="name" id="name"/><br>
+        <label for="email">Email</label><input type="email" name="name" id="name"/><br>
+        <label for="Password">Password</label><input type="password" name="name" id="name"/>
+        <button>Click</button>
+        <input type="submit" name="submit" value="login" id="submit"><br>
+        <Label for="CS">CS</Label><input type="checkbox" name="Cs" value="cs" id="cs"/>
+        <Label for="SE">SE</Label><input type="checkbox" name="se" value="se" id="se"/>
+        <Label for="It">IT</Label><input type="checkbox" name="it" value="it" id="it"/>
+        <Label for="IoT">IoT</Label><input checked type="checkbox" name="IoT" value="IoT" id="IoT"/><br>
+
+        <label for="male">Male</label><input type="radio" name="gender" id="gender" value="g"/>
+        <label for="Female">Female</label><input type="radio" name="gender" id="gender" value="g"/>
+        <label for="Other">Other</label><input type="radio" name="gender" id="gender" value="g"/>
+
+        <select>
+            <option disabled selected>select option...</option>
+            <optgroup label="Technology"  class="opt">
+            <option>Computer Science</option>
+            <option>Software Engineering</option>
+            <option>Information Technology</option>
+            <option>Internet of Things</option>
+
+            <optgroup label="Arts"  class="opt">
+                <option>Urdu</option>
+                <option>Islamiat</option>
+                <option>Pak Study</option>
+                <option>Political Science</option>
+        </select>
+
+        
+    </form>
+    
+</body>
+</html>
